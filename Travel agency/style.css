@@ -1,0 +1,86 @@
+/* Custom styles */
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #343a40; /* Dark gray text color */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; /* Dark gray text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue text color on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(Bora-Bora-French-Polynesia.jpg.webp); /* Background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    color: #fff; /* White text color */
+    padding: 100px 0; /* Padding top and bottom */
+}
+
+.hero-section h1 {
+    font-size: 3rem; /* Larger font size */
+}
+
+.hero-section p {
+    font-size: 1.25rem; /* Larger font size */
+}
+
+.hero-section .btn {
+    margin-top: 20px; /* Add some space between the text and the button */
+}
+
+/* Destinations */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move card up slightly on hover */
+}
+
+/* Custom styling for footer */
+
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+  }
+  
+  .footer a {
+    color: #ffffff; /* White color for links */
+  }
+  
+  .footer a:hover {
+    color: #bbbbbb; /* Lighter color on hover */
+  }
+
+/* social media section */
+
+#social-media {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(10px);
+}
